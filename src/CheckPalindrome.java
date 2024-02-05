@@ -11,7 +11,7 @@ public class CheckPalindrome {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.print("Enter string to check palindrome: ");
         String inputString = scanner.nextLine();
 
         inputString = inputString.replaceAll(" ","").toLowerCase();
