@@ -19,7 +19,7 @@ public class PrimeOrFactor {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         if(checkPrime(number)){
-            System.out.println("Prime Number");
+            System.out.println(true);
         }else {
             printFactor(number);
         }
